@@ -2,8 +2,9 @@
 This GitHub repo is an end semester project submission of the course "Robotic Operating Systems" which features the implementation of a Patrol Robot in ROS2 Humble distribution.
 
 This project features the following things:
-         * Creating a 2-Wheel Differential drive robot using xacro files
-        => Integrating LIDAR sensor and camera to the Robot
+***
+ * Creating a 2-Wheel Differential drive robot using xacro files
+ * Integrating LIDAR sensor and camera to the Robot
         => Generating a Gazebo world that represents parking lot in a Grocery store
         => Spawning the robot in Gazebo for simulation using launch file
         => Vizualization of the simulation in rviz 
