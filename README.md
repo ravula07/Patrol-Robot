@@ -1,15 +1,15 @@
 # Patrol-Robot
-This GitHub repo is an end semester project submission of the course "Robotic Operating Systems" which features the implementation of a Patrol Robot in ROS2 Humble distribution.
+This GitHub repo presents an end semester project submission for the course "Robotic Operating Systems" which showcasing the implementation of a Patrol Robot in ROS2 Humble distribution.
 
-This project features the following things:
+This project features the following :
 ***
- * Creating a 2-Wheel Differential drive robot using xacro files
- * Integrating LIDAR sensor and camera to the Robot
-        => Generating a Gazebo world that represents parking lot in a Grocery store
-        => Spawning the robot in Gazebo for simulation using launch file
-        => Vizualization of the simulation in rviz 
-        => Localization of robot in the world by generating a map using Slam toolbox
-        => Autonomously navigating our robot in the world using 2D goal pose in rviz
+ * Creation of a 2-Wheel Differential drive robot using xacro files
+ * Integration of LIDAR sensor and camera into the robot's design
+ * Generation of a Gazebo world, representing a parking lot of a Grocery store
+ * Simulation of the robot within Gazebo through a launch file
+ * Vizualization of the simulation in rviz 
+ * Localization of the robot within the world by generating a map using Slam toolbox
+ * Autonomous navigation of our robot in the world using 2D goal pose in rviz
 
-# Functionality
-Our robot patrols the parking lot inforont of the Grocery store.
+## Functionality
+The primary function of our robot is to patrol the parking lot of the Grocery store. In  cases where vehicles are improperly parked within prohibited areas, the robot prompts the user through console by publishing a message and also the coordinates of the wrongly parked vehicle.
